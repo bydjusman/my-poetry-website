@@ -1,28 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poetry Website</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>Welcome to My Dj-Usman Poetry Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#Poetry">Poetry</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <h1>Welcome to My Dj-Usman Poetry Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#Poetry">Poetry</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <div style={{ marginTop: '30px' }}>
+
+    <section id="home">
+      <h2>This My Website</h2>
+      <p>
+        This is a place where I share my poetry with the world. Feel free to
+        explore my latest work!
+      </p>
+    </section>
+
+    <section id="Poetry">
+      <article class="Poetry">
+        <h3>The First Poetry</h3>
+        <p>
+          Kitne Raatein Beet Gye, Kitne Din Dhal Gye.<br />Jinhein nahi badlna
+          tha, Wohi log badal gye,<br />--------------------
+        </p>
+      </article>
+
+      <article class="Poetry">
+        <h3>The Second Poetry</h3>
+        <p>
+          Jo Mukamal Miltay Nahi,<br />Woh Mukamal Bicharrtay Bhi Nahi,<br />---------------------
+        </p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <div style="margin-top: 30px; text-align: center;">
       <a
         href="https://github.com/bydjusman"
         target="_blank"
         rel="noopener noreferrer"
-        style={{ marginRight: '20px', textDecoration: 'none', color: '#0077B5' }}
+        style="margin-right: 20px; text-decoration: none; color: #0077B5;"
       >
         GitHub ★
       </a>
@@ -30,7 +68,7 @@
         href="https://linkedin.com/in/ᑌs๓ᴀñ̰-khokhar-bb02a2290"
         target="_blank"
         rel="noopener noreferrer"
-        style={{ textDecoration: 'none', color: '#0077B5' }}
+        style="text-decoration: none; color: #0077B5;"
       >
         LinkedIn ★
       </a>
@@ -38,47 +76,16 @@
         href="https://facebook.com/profile.php?id=100010830999227"
         target="_blank"
         rel="noopener noreferrer"
-        style={{ textDecoration: 'none', color: '#1877F2', margin: '10px', padding: '5px' }}
+        style="text-decoration: none; color: #1877F2; margin: 10px; padding: 5px;"
       >
         Facebook ★
       </a>
     </div>
-
-
-    <section id="home">
-        <h2>This My Website</h2>
-        <p>This is a place where I share my poetry with the world. Feel free to explore my latest work!</p>
-    </section>
-
-    <section id="Poetry">
-        <article class="Poetry">
-            <h3>The First Poetry</h3>
-            <p>Kitne Raatein Beet Gye, Kitne Din Dhal Gye.<br>Jinhein nahi badlna tha, Wohi log badal gye,<br>--------------------</p>
-        </article>
-
-        <article class="Poetry">
-            <h3>The Second Poetry</h3>
-            <p>Jo Mukamal Miltay Nahi,<br>Woh Mukamal Bicharrtay Bhi Nahi,<br>---------------------</p>
-        </article>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
     
-    <footer>
-        <p>&copy; 2024 My Poetry Website</p>
-    </footer>
+    
 
-</body>
+    <footer>
+      <p>&copy; 2024 My Poetry Website</p>
+    </footer>
+  </body>
 </html>
